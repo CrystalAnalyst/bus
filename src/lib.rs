@@ -1,3 +1,4 @@
+#![allow(dropping_references)]
 //! Bus provides a lock-free, bounded, single-producer, multi-consumer, broadcast channel.
 //!
 //! It uses a circular buffer and atomic instructions to implement a lock-free single-producer,
